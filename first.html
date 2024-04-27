@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Verification - Wine Shop</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('wine-background.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .overlay {
+    /* background-color: rgba(0, 0, 0, 0.7); Dark overlay for better readability */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .age-verification-card {
+    background: #FFFDD0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    
+  }
+  .age-verification-card h3 {
+    /* font-size: 2em; */
+    color: #800020; /* Wine color */
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  .yes-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .no-button {
+    background-color: #f44336;
+    color: white;
+  }
+  body{
+    background-image: url("images/swm3.png");
+    background-size: cover;
+  }
+  #logo{
+    height: 180px;
+    width: 180px;
+  }
+</style>
+</head>
+<body>
+
+<div class="overlay">
+  <div class="age-verification-card">
+    <img id="logo" src="images/logoMain.png" alt="logo">
+    <h2>Are you old enough to drink?<br>(21 or above)</h2>
+    <button class="yes-button" onclick="window.location.href='index.html';">Yes</button>
+    <button class="no-button" onclick="window.location.href='https://www.google.com/search?q=samruddhi+wines+mart+nashik&sca_esv=69456702d113c43f&sca_upv=1&ei=uVEtZsmNKeTh2roPhLO3gAw&oq=samruddhi+wines+mart+nas&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIhhzYW1ydWRkaGkgd2luZXMgbWFydCBuYXMqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgQQIRgVMgUQIRifBTIFECEYnwUyBRAhGJ8FSPZZUN8HWMlOcAF4AJABAJgBzAGgAccjqgEGMC4yMC40uAEDyAEA-AEBmAIZoALYJKgCCsICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQHCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEBwgIREAAYgAQYkQIYsQMYgwEYigXCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIXEC4YgAQYkQIYsQMY0QMYgwEYxwEYigXCAgoQLhiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICFxAuGIAEGKADGLEDGIMBGOUEGKgDGIsDwgILEC4YgAQYsQMY1ALCAhQQLhiABBigAxixAxjlBBioAxiLA8ICDRAuGIAEGLEDGEMYigXCAggQLhiABBixA8ICCxAuGIAEGLEDGIMBwgIQEC4YgAQYsQMYQxiDARiKBcICBRAAGIAEwgILEC4YgAQYxwEYrwHCAgYQABgWGB7CAhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAsICCxAAGIAEGIYDGIoFwgIIEAAYgAQYogSYAwa6BgQIARgKugYGCAIQARgUkgcHMS4xNC4xMKAH09sB&sclient=gws-wiz-serp';">No</button>
+  </div>
+</div>
+
+</body>
+</html>
